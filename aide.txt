@@ -1,0 +1,65 @@
+// Dossiers: img, css, js, inc
+
+// Faire un fichier de config avec des define
+
+/* index.php
+- faire les liens pour chaque session
+*/
+
+/* list.php
+- afficher la liste des students
+- parler du paramètre d'URL pour préciser le student à afficher dans student.php
+*/
+
+/* student.php
+- afficher toutes les informations qu'on a
+*/
+
+/* add.php
+- finir le formulaire d'ajout qu'on a commencé lundi
+*/
+
+/* list.php - pagination
+-------------------------------
+- rendre le nombre d'étudiant par page paramètrable :
+	* d'abord en paramétrant une variable PHP
+	* ensuite en proposant un menu déroulant à l'internaute
+*/
+
+
+/* recherche
+----------------------------
+- lorsqu'une recherche est effectuée, elle renvoie sur la page "list.php?q=ma+recherche"
+- sur list.php, récupérer le mot recherché, et modifier la requete pour afficher les étudiants correspondants à cette recherche
+*/
+
+
+/* update.php
+----------------------------
+- update.php est un formulaire permettant de modifier un étudiant
+- passer l'id du student dans l'URL
+- dupliquer le formulaire de "add.php"
+- remplir les champs et menus déroulants par les valeurs du student
+- lors de la soumission du formulaire, faire toutes les validations et traitement (similaire à add.php)
+- si tout est ok, rediriger sur student.php?id=XXX
+- sinon, afficher quel(s) champ(s) est incorrect
+*/
+
+/* Home - stats
+---------------------
+- ajouter une colonne "Effectif" dans le listing des sessions de formation
+- modifier la requete pour retourner le nombre de student par session de formation
+- afficher le nombre d'étudiant dans la colonne "Effectif"
+*/
+
+/* MVC (optionnel)
+---------------------
+- pour rendre le code plus propre :
+	* déplacer tout le code exécutant une requête et envoyant un tableau de résultat dans une fonction
+	* faire les appels aux nouvelles fonctions
+*/
+
+/* Graphisme
+---------------------
+- prendre du temps pour rendre tout ce petit projet TOTO joli et agréable (bootstrap ou autre framework CSS)
+*/

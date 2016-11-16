@@ -1,0 +1,14 @@
+{
+    "name": "wf3/toto",
+    "description": "simple training manager",
+    "type": "project",
+    "authors": [
+        {
+            "name": "hicham ahrach",
+            "email": "hicham.ahrach@gmail.com"
+        }
+    ],
+    "require": {
+        "social-links/social-links": "^1.11"
+    }
+}
